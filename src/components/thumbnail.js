@@ -4,11 +4,10 @@ import {
   TouchableOpacity,
   ImageBackground,
   Image,
-  ViewPropTypes,
-  ImagePropTypes,
   Linking,
   StyleSheet,
 } from 'react-native';
+import { ViewPropTypes, ImagePropTypes} from 'deprecated-react-native-prop-types';
 
 import { DEFAULT_WIDTH, TYPES } from './constants';
 import { getVideoId } from '../helpers';
